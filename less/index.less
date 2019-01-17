@@ -59,8 +59,9 @@ html, body {
 }
 
 html {
-	//background-image: url("https://i.ibb.co/LvfvvwT/linems.jpg");
-	//background-size: 45%;
+	background-image: url(https://i.ibb.co/XZhq4dv/circle-bg.png);
+	background-size: 1000px;
+	
 }
 
 // MY VARIABLES //
@@ -129,6 +130,20 @@ body {
 	}
 }
 
+.header-border-2 {
+	color: #4d4d4d;
+	background-color: #4d4d4d;
+	width: 100px;
+	height: 6px;
+	margin-left: 12%;
+	@media (max-width: 500px) {
+		width: 75px;
+	}
+	p {
+		visibility: hidden;
+	}
+}
+
 .header-border {
 	color: #4d4d4d;
 	background-color: #4d4d4d;
@@ -146,11 +161,12 @@ body {
 .navigation {
 	display: flex;
 	justify-content: space-evenly;
-	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 	width: 100%;
+	background-color: rgb(27, 27, 27);
 	a {
-		color: #4d4d4d;
+		color: white;
 		text-decoration: none;
 		.font-family();
 		font-weight: bold;
@@ -180,7 +196,7 @@ body {
 	display: flex;
 	padding-top: 30px;
 	padding-bottom: 8%;
-	border-bottom: 2px solid rgb(192, 192, 192);
+
 
 
 	.about-info {
@@ -227,7 +243,6 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	padding-bottom: 5%;
-	border-bottom: 2px solid rgb(192, 192, 192);
 	@media (max-width: 500px) {
 		flex-direction: column;
 	}
@@ -274,11 +289,9 @@ body {
 	.titles h3 {
 		width: 450px;
 		line-height: 30px;
-		border-bottom: 2px solid rgb(192, 192, 192);
 		@media (max-width: 500px) {
 			width: 350px;
 			line-height: 30px;
-			border-bottom: 2px solid rgb(192, 192, 192);
 		}
 	
 
