@@ -134,6 +134,10 @@ html,
 body {
   height: 100%;
 }
+html {
+  background-image: url("https://i.ibb.co/LvfvvwT/linems.jpg");
+  background-size: 45%;
+}
 .h2-color {
   color: #4d4d4d;
   font-weight: bold;
@@ -186,7 +190,7 @@ body {
   color: #4d4d4d;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  font-weight: 10px;
+  font-weight: bold;
 }
 .maincontainer {
   padding: 2%;
@@ -235,6 +239,7 @@ body {
   min-width: 22%;
 }
 .skills h2 {
+  font-size: 1.5rem;
   font-weight: bold;
   padding-bottom: 10px;
   color: #4d4d4d;
@@ -248,4 +253,19 @@ body {
 .skills ul {
   font-family: 'Roboto', sans-serif;
   color: #4d4d4d;
+}
+.work-history {
+  font-family: 'Roboto', sans-serif;
+  color: #4d4d4d;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+.work-history h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.work-history h3 {
+  line-height: 20px;
 }
